@@ -1,6 +1,5 @@
 #include "Form.h"
 
-#include <iomanip>
 #include <cmath>
 #include <iostream>
 
@@ -16,7 +15,7 @@ void Triangle::draw() const
         top[i] = '-';
     top[m_leg_length] = '\0';
 
-    std::cout << spaces << '|' << top << std::endl;
+    std::cout << spaces << "|" << top << std::endl;
 
     for (int i = 0; i < m_leg_length; i++)
     {
