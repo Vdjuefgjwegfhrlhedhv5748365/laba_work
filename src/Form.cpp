@@ -1,5 +1,6 @@
 #include "Form.h"
 
+#include <iomanip>
 #include <cmath>
 #include <iostream>
 
@@ -53,3 +54,4 @@ void Circle::draw() const
     }
     delete[] spaces;
 }
+
