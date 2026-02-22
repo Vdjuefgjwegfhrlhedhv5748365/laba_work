@@ -1,6 +1,16 @@
 
 #pragma once
 
+class Form
+{
+protected:
+    const unsigned int m_offset;
+public:
+    Form(unsigned int offset): m_ofset(offset){}
+    virtual void draw() const = 0;
+    virtual ~Form() = default;
+};
+
 class Triangle
 {
     const unsigned int m_offset;
