@@ -1,6 +1,7 @@
 
 #pragma once
 
+
 class Triangle
 {
     const unsigned int m_offset;
