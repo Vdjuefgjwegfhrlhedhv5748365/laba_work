@@ -20,7 +20,6 @@ public:
     Circle(unsigned int offset, unsigned int radius) : m_offset(offset), m_radius(radius) {}
     void draw() const;
 };
-=======
 #pragma once
 
 class Triangle
