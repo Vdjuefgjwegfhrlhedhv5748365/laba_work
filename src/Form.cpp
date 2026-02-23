@@ -1,5 +1,4 @@
 #include "Form.h"
-
 #include <cmath>
 #include <iostream>
 
