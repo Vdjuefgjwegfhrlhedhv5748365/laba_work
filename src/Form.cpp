@@ -54,3 +54,13 @@ void Circle::draw() const
     delete[] spaces;
 }
 
+void Triangle::setOffset(unsigned int newOffset) const
+{
+    // const_cast убирает константность у this
+    const_cast<Triangle*>(this)->m_offset = newOffset;
+}
+
+void Circle::setOffset(unsigned int newOffset) const
+{
+    const_cast<Circle*>(this)->m_offset = newOffset;
+}
