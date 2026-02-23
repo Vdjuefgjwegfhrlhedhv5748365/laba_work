@@ -6,7 +6,7 @@ class Form
 protected:
     unsigned int m_offset;
 public:
-    Form(unsigned int offset): m_ofset(offset){}
+    Form(unsigned int offset): m_offset(offset){}
     virtual void draw() const = 0;
     virtual ~Form() = default;
 };
