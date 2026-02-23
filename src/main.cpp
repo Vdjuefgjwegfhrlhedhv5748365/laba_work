@@ -1,8 +1,12 @@
 #include "Form.h"
 
+
 int main()
 {
     Triangle tr(5, 10);
+    tr.draw();
+    
+    tr.setOffset(15);
     tr.draw();
 
     Circle c(3, 7);
